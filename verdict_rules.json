@@ -1,0 +1,22 @@
+{
+ "_note": "verdict.py 고정 규칙 — 판정 전에 확정한 값. 바꾸면 날짜와 이유를 여기 적을 것.",
+ "exceed_threshold": {
+  "causal": 2,
+  "advice": 2,
+  "species": 1,
+  "specificity": 1
+ },
+ "grade_weight": {
+  "Meta-Analysis": 3.0,
+  "Systematic Review": 3.0,
+  "Practice Guideline": 3.0,
+  "Randomized Controlled Trial": 2.0,
+  "default": 1.0
+ },
+ "k_evidence": 8,
+ "mixed_ratio": 0.3,
+ "abstract_chars": 1800,
+ "_history": [
+  "2026-09-10 최초 확정 (End-to-end_설계_0910.md §3)"
+ ]
+}

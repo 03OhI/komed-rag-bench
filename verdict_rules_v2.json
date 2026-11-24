@@ -1,0 +1,24 @@
+{
+ "_note": "v2 판독기(주장 유형별 관련성 기준, verdict.py SYSTEM_V2). 개선 작업용 — HealthVer dev 에서만 고른다. 나머지 값은 verdict_rules.json(v1)과 같다.",
+ "exceed_threshold": {
+  "causal": 2,
+  "advice": 2,
+  "species": 1,
+  "specificity": 1
+ },
+ "grade_weight": {
+  "Meta-Analysis": 3.0,
+  "Systematic Review": 3.0,
+  "Practice Guideline": 3.0,
+  "Randomized Controlled Trial": 2.0,
+  "default": 1.0
+ },
+ "k_evidence": 8,
+ "mixed_ratio": 0.3,
+ "abstract_chars": 1800,
+ "_history": [
+  "2026-09-10 최초 확정 (End-to-end_설계_0910.md §3)",
+  "2026-11-15 v2 판독기 후보 (dev 작업용)"
+ ],
+ "reader": "v2"
+}

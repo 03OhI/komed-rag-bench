@@ -1,0 +1,58 @@
+# ── API 키 ──
+anthropic_key.txt
+deepl_key.txt
+google_key.txt
+gemini_key.txt
+openai_key.txt
+*_key.txt
+*.key
+bench/data/
+bench/preds/
+bench/bench_usage.jsonl
+
+# ── 이용 조건이 붙은 데이터 (INEC 심의결정문·기사 / AI Hub / 뉴스토어 구매 기사) — 저장소 밖으로 내보내지 않는다 ──
+dataset.json
+inc_dataset.json
+train_data*.jsonl
+articles.jsonl
+news.json
+news.jsonl
+health_news.jsonl
+health_core.jsonl
+inc_outlets.tsv
+inc_type_*.jsonl
+clickbait_*.jsonl
+eval_within_outlet*.jsonl
+eval_sameday.jsonl
+eval_quarter.jsonl
+SIM_eval_rejected.jsonl
+bigkinds/
+output/
+
+# ── 학습된 모델 (각 400MB 안팎) · 체크포인트 ──
+kpf_bert_*/
+ckpt_*/
+*.safetensors
+pytorch_model.bin
+
+# ── 대용량 색인·임베딩 (재생성 가능) ──
+sapbert_faiss.index
+sapbert_meta.pkl
+mesh_lookup.pkl
+mesh_lookup.parquet
+mesh_ko_full.json
+mesh_base_full_v2.json
+desc2026.xml
+pubmed_db*.jsonl
+pubmed_index.pkl
+kpf_split.json
+
+# ── 캐시·임시 ──
+komed_llm_cache.jsonl
+__pycache__/
+*.bak
+*.bak_*
+_to_delete/
+_bak_before_rerun/
+.tmp.driveupload/
+desktop.ini
