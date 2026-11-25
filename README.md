@@ -68,3 +68,7 @@
 ## 필요한 라이브러리
 
 `numpy`, `pandas`, `rapidfuzz`, `torch`, `transformers`(재순위에만 필요)
+
+## 라이선스
+
+이 저장소의 자체 저작물에는 [GNU Affero General Public License v3.0](LICENSE) (`AGPL-3.0-only`)가 적용됩니다. Copyright (c) 2026 Mun Yeeun (문예은). 외부 벤치마크 데이터와 모델에는 각 배포처의 라이선스가 적용됩니다.
